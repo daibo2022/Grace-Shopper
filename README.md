@@ -2,7 +2,7 @@
 
 An online merchandise store built by an agile team of four. 
 
-<img width="800" src="homepage.png" alt=" " />
+<img width="800" src="/public/homepage.png" alt=" " />
 
 
 ## Deployed App
