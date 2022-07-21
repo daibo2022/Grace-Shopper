@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: block;
+}
+
+nav a {
+  display: inline-block;
+  margin: 1em;
+}
+
+form div {
+  margin: 1em;
+  display: inline-block;
+}
+
+nav#navbar {
+  background-color: #cf9671;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: white;
+}
+
+.welcome {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: rgb(103, 103, 103);
+  align-content: center;
+}
+
+.welcomeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: #efd3cf;
+  font-size: 20px;
+  font-weight: 120;
+}
+
+.slidesContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  padding: 20px;
+}
+
+#bannerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#banner {
+  width: 900px;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(238, 205, 192, 0.243);
+  border-radius: 25px;
+  flex-direction: column;
+  width: 400px;
+  margin: 100px;
+}
+
+.input {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.labelName {
+  color: rgb(82, 82, 82);
+}
+
+.secondFormContainer {
+  width: 200px;
+}
+
+.button {
+  transition-duration: 0.4s;
+  background-color: #6d6c6c; /* Green */
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #aeaeae;
+  color: white;
+}
+
+#announcement {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+#announcementText {
+  color: #6d6c6c;
+}
